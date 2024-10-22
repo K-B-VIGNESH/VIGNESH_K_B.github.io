@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vignesh K B - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #0a192f;
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.3em;
+        }
+        nav {
+            margin: 20px 0;
+            background-color: #172a45;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+        nav a:hover {
+            background-color: #64ffda;
+            color: #0a192f;
+        }
+        .container {
+            width: 85%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            padding: 60px 0;
+            margin-bottom: 30px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.2em;
+            color: #0a192f;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+        .about-me, .skills, .projects, .contact, .publications, .internship {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .about-me p, .contact p {
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        .skills ul, .projects ul, .publications ul, .internship ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li, .projects ul li, .publications ul li, .internship ul li {
+            margin: 15px 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-left: 5px solid #64ffda;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .skills ul li:hover, .projects ul li:hover, .publications ul li:hover, .internship ul li:hover {
+            background-color: #64ffda;
+            color: #0a192f;
+        }
+        .skills ul li h3, .projects ul li h3, .publications ul li h3, .internship ul li h3 {
+            margin-bottom: 10px;
+            font-size: 1.4em;
+            color: #0a192f;
+        }
+        .skills ul li p, .projects ul li p, .publications ul li p, .internship ul li p {
+            font-size: 1em;
+            line-height: 1.7;
+        }
+
+        /* Contact section */
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            padding-bottom: 20px;
+        }
+        .contact-info a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .contact-info img {
+            width: 40px;
+            height: 40px;
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+        .contact-info img:hover {
+            transform: scale(1.2);
+        }
+        .contact-info p {
+            font-size: 0.9em; /* Adjusted font size */
+            line-height: 1.5; /* Optional: Adjust line height for better readability */
+        }
+        .contact-form {
+            text-align: center;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .contact-form input[type="submit"] {
+            background-color: #0a192f;
+            color: white;
+            cursor: pointer;
+        }
+        .contact-form input[type="submit"]:hover {
+            background-color: #64ffda;
+            color: #0a192f;
+        }
+
+        footer {
+            background-color: #0a192f;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: #64ffda;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Vignesh K B</h1>
+        <p>B.Sc IT Student | Developer | Problem Solver</p>
+    </header>
+
+    <nav class="container">
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#internship">Internship</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="container about-me">
+        <h2>About Me</h2>
+        <p>I'm Vignesh K B, a B.Sc. IT student at KPR College, passionate about web development, UI/UX design, and solving problems. I have hands-on experience through internships, hackathons, and projects, always aiming to make a positive impact.</p>
+    </section>
+
+    <section id="skills" class="container skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>
+                <h3>Technical Skills</h3>
+                <p>HTML, CSS, JavaScript, Figma, C, C++, Java, SQL</p>
+            </li>
+            <li>
+                <h3>Soft Skills</h3>
+                <p>Leadership, Problem-Solving, Accountability</p>
+            </li>
+            <li>
+                <h3>Certifications</h3>
+                <p>UI & UX Developer | L&T EduTech | Apr 2023 - July 2023</p>
+                <p>Google Cloud Computing Foundation | NPTEL | Oct 2023</p>
+                <p>Soft Skill Development | NPTEL | Jan-Mar 2023</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="projects" class="container projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>Task Tracker Web Application</h3>
+                <p>UI Designer | Designed a responsive task tracking app using HTML and CSS for efficient task management.</p>
+            </li>
+            <li>
+                <h3>Kovai Smart City App</h3>
+                <p>UI Designer | Created a smart city app using Figma for enhancing civic engagement, presented at Sociotech Hackathon 2024.</p>
+                <a href="https://www.figma.com/proto/vfiDGcEfmQcdSvCn0srPjm/APP-PROTOTYPE?node-id=22-894&t=xsbL1agw5o9fWfko-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=15%3A46">View Prototype</a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="publications" class="container publications">
+        <h2>Publications</h2>
+        <ul>
+            <li>
+                <h3>Startup Management: Navigating Challenges and Fostering Success</h3>
+                <p>Published as a Book Chapter | ISBN Publication | KPR College, Coimbatore | Sept 2023</p>
+            </li>
+            <li>
+                <h3>Fraud Detection and Security</h3>
+                <p>Presented at Sri Ramakrishna College of Arts and Science (International Conference, Sept 2023)</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="internship" class="container internship">
+        <h2>Internship</h2>
+        <ul>
+            <li>
+                <h3>Web Development Intern</h3>
+                <p>Completed a 15-day internship in Web Development at Nxt Logic Software Solutions, Coimbatore, where I gained practical experience in building responsive web applications and enhancing my coding skills.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="contact" class="container contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <div>
+                <a href="mailto:kbvignesh124@gmail.com">
+                    <img src="https://img.icons8.com/color/48/000000/email.png" alt="Email">
+                </a>
+                <p>Email: kbvignesh124@gmail.com</p>
+            </div>
+            <div>
+                <img src="https://img.icons8.com/color/48/000000/phone.png" alt="Phone">
+                <p>Phone: +91 97888 44888</p>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/kbvignesh12/">
+                    <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn">
+                </a>
+                <p>LinkedIn: https://www.linkedin.com/in/kbvignesh12/</p>
+            </div>
+        </div><br>
+        <div class="contact-form">
+            <h3>Get in Touch</h3>
+            <form action="YOUR_FORM_ENDPOINT" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vignesh K B. All Rights Reserved. | <a href="#about">Back to Top</a></p>
+    </footer>
+
+</body>
+</html>
